@@ -1,0 +1,11 @@
+<?php
+
+
+$result = 60000;
+
+$commission = ($result >= 20000) ? ($result * 0.25) : (($result >= 10000) ? ($result * 0.2) : ($result >= 7000) ? ($result * 0.15) : 'Invalid Result');
+
+echo "The HF consultancy commission is: $commission";
+
+
+?>
